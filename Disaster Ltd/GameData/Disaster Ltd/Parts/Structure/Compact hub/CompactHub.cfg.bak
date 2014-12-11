@@ -1,0 +1,49 @@
+PART
+{
+
+	// --- General Parameters ---
+	name = DLTD_Compact_Hub_1_25
+	module = Part
+	author = Disaster Ltd
+
+	MODEL {
+		model = Disaster Ltd/Parts/Structure/Compact hub/Compact_Hub
+
+	}
+
+	scale = 1.0
+	rescaleFactor = 1.0
+	
+	// --- Node Definitions ---
+	node_stack_right = 0.5, 0, 0, -1, 0, 0, 1
+	node_stack_left = -0.5, 0, 0, 1, 0, 0, 1
+	node_stack_back = 0, 0, 0.5, 0, 0,-1, 1
+	node_stack_front = 0, 0,-0.5, 0, 0, 1, 1
+	node_stack_top = 0, 0.5, 0, 0,-1, 0, 1
+	node_stack_bottom = 0,-0.5, 0, 0, 1, 0, 1
+
+	// --- Editor Parameters ---
+	TechRequired = heavierRocketry
+	cost = 250
+	category = Structural
+	subcategory = 0
+	title = DLTD SH-A "Collider"
+	manufacturer = Disaster Ltd.
+	description = Parts meet.
+
+	// --- Attachment Parameters ---
+	attachRules = 1,0,1,1,0
+
+	// --- Part Parameters ---
+	mass = 2
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.2
+	angularDrag = 1
+	crashTolerance = 10
+	breakingForce = 1500
+	breakingTorque = 1500
+	maxTemp = 3500
+
+	// --- End of Configuration ---
+}
